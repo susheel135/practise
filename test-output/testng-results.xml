@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="135" started-at="2021-04-09T04:13:43Z" finished-at="2021-04-09T04:13:43Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Testing.method2()[pri:0, instance:practise.Testing@564718df]" name="method2" class="practise.Testing"/>
+        <method signature="Testing.method1()[pri:0, instance:practise.Testing@564718df]" name="method1" class="practise.Testing"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Testing.method2()[pri:0, instance:practise.Testing@564718df]" name="method2" class="practise.Testing"/>
+      </group> <!-- sanity -->
+      <group name="sugar">
+        <method signature="Testing.method3()[pri:0, instance:practise.Testing@564718df]" name="method3" class="practise.Testing"/>
+      </group> <!-- sugar -->
+    </groups>
+    <test name="Test" duration-ms="135" started-at="2021-04-09T04:13:43Z" finished-at="2021-04-09T04:13:43Z">
+      <class name="practise.Testing">
+        <test-method status="PASS" signature="method5()[pri:0, instance:practise.Testing@564718df]" name="method5" is-config="true" duration-ms="23" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method status="PASS" signature="method8()[pri:0, instance:practise.Testing@564718df]" name="method8" is-config="true" duration-ms="0" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method8 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:practise.Testing@564718df]" name="method4" is-config="true" duration-ms="1" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:practise.Testing@564718df]" name="method2" duration-ms="10" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method7()[pri:0, instance:practise.Testing@564718df]" name="method7" is-config="true" duration-ms="1" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:practise.Testing@564718df]" name="method4" is-config="true" duration-ms="0" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:practise.Testing@564718df]" name="method1" duration-ms="6" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method7()[pri:0, instance:practise.Testing@564718df]" name="method7" is-config="true" duration-ms="8" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:practise.Testing@564718df]" name="method4" is-config="true" duration-ms="1" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:practise.Testing@564718df]" name="method3" duration-ms="19" started-at="2021-04-09T09:43:43Z" depends-on-methods="practise.Testing.method2" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method7()[pri:0, instance:practise.Testing@564718df]" name="method7" is-config="true" duration-ms="2" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+        <test-method status="PASS" signature="method9()[pri:0, instance:practise.Testing@564718df]" name="method9" is-config="true" duration-ms="2" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method9 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:practise.Testing@564718df]" name="method6" is-config="true" duration-ms="1" started-at="2021-04-09T09:43:43Z" finished-at="2021-04-09T09:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- practise.Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

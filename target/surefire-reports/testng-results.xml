@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="126" started-at="2021-04-08T04:39:23Z" finished-at="2021-04-08T04:39:23Z">
+    <groups>
+      <group name="smoke">
+        <method signature="testngs.method2()[pri:0, instance:practise.testngs@2bea5ab4]" name="method2" class="practise.testngs"/>
+        <method signature="testngs.method1()[pri:0, instance:practise.testngs@2bea5ab4]" name="method1" class="practise.testngs"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="testngs.method2()[pri:0, instance:practise.testngs@2bea5ab4]" name="method2" class="practise.testngs"/>
+      </group> <!-- sanity -->
+      <group name="sugar">
+        <method signature="testngs.method3()[pri:0, instance:practise.testngs@2bea5ab4]" name="method3" class="practise.testngs"/>
+      </group> <!-- sugar -->
+    </groups>
+    <test name="Test" duration-ms="126" started-at="2021-04-08T04:39:23Z" finished-at="2021-04-08T04:39:23Z">
+      <class name="practise.testngs">
+        <test-method status="PASS" signature="method2()[pri:0, instance:practise.testngs@2bea5ab4]" name="method2" duration-ms="31" started-at="2021-04-08T10:09:23Z" finished-at="2021-04-08T10:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:practise.testngs@2bea5ab4]" name="method1" duration-ms="0" started-at="2021-04-08T10:09:23Z" finished-at="2021-04-08T10:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:practise.testngs@2bea5ab4]" name="method3" duration-ms="1" started-at="2021-04-08T10:09:23Z" depends-on-methods="practise.testngs.method2" finished-at="2021-04-08T10:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- practise.testngs -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
