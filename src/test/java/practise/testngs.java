@@ -21,8 +21,10 @@ public class testngs {
 	public void method3() {
 	System.out.println("method3");
 	}
-	
-	
+	@Test
+	public void method11() {
+		System.out.println("method11");
+	}
 	
 	
 	
