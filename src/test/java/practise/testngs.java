@@ -25,11 +25,9 @@ public class testngs {
 //	public void method11() {
 //		System.out.println("method11");
 //	}
-	
-	
-	
-	
-	
+	public void heelo() {
+		
+	}
 	@BeforeMethod
 	public void method4() {
 	System.out.println("BeforeMethod");
